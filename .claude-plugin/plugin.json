@@ -1,0 +1,15 @@
+{
+  "name": "gitsu",
+  "version": "1.0.0",
+  "author": { "name": "Coduo" },
+  "description": "Read and update the items on your GitHub Projects v2 boards from Claude, through Gitsu's hosted MCP server. Sign in with GitHub; nothing is installed on your computer.",
+  "icon": "./icon.png",
+  "homepage": "https://gitsu.app",
+  "repository": "https://github.com/Coduo-Studio/gitsu-claude",
+  "license": "MIT",
+  "keywords": ["github", "projects", "kanban", "issues", "boards"],
+  "documentationUrl": "https://github.com/Coduo-Studio/gitsu-claude#readme",
+  "supportUrl": "https://github.com/Coduo-Studio/gitsu-claude/issues",
+  "privacyPolicyUrl": "https://gitsu.app/privacy",
+  "termsOfServiceUrl": "https://gitsu.app/terms"
+}

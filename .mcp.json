@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "gitsu": {
+      "type": "http",
+      "url": "https://dash.gitsu.app/api/mcp"
+    }
+  }
+}

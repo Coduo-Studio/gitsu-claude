@@ -1,0 +1,12 @@
+{
+  "name": "gitsu",
+  "owner": { "name": "Coduo" },
+  "metadata": { "description": "Gitsu's plugin for Claude." },
+  "plugins": [
+    {
+      "name": "gitsu",
+      "source": "./",
+      "description": "Read and update your GitHub Projects v2 boards through Gitsu's hosted MCP server."
+    }
+  ]
+}
