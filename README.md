@@ -34,6 +34,21 @@ Write: `create_item`, `add_comment`, `add_labels`, `remove_labels`,
 `close_item`, `reopen_item`, `set_field_value`, `start_work`, `finish_work`.
 No tool deletes an item.
 
+## Cards
+
+In Claude on the web, Claude Desktop and Claude mobile, Gitsu draws a card
+beside the answer: the item for `get_item`, the matching items for
+`list_items`, your boards for `list_projects`, a board's columns for
+`list_fields`, and the changed item after each write tool. Cards link to
+GitHub. Claude Code in the terminal shows the text answer only, which is the
+same text every client gets.
+
+![get_item card](docs/screenshots/item-light.png)
+
+![list_items card: what's in review](docs/screenshots/items-light.png)
+
+![set_field_value card: status moved to In review](docs/screenshots/write-light.png)
+
 ## What leaves your machine
 
 - Claude sends each tool call to `dash.gitsu.app`.
@@ -51,9 +66,9 @@ No tool deletes an item.
 
 ## The Gitsu app
 
-If you use the Gitsu macOS app, its own plugin adds a band above Claude Code's
-prompt showing the items Claude is working on:
-https://github.com/Coduo-Studio/gitsu-plugin
+If you use the Gitsu macOS app (https://gitsu.app), it installs its own Claude
+Code plugin from Settings → Claude Code plugin. That plugin adds a band above
+Claude Code's prompt showing the items Claude is working on.
 
 ## Support
 
