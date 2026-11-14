@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "gitsu": {
+      "url": "https://dash.gitsu.app/api/mcp"
+    }
+  }
+}

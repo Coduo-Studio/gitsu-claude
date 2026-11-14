@@ -1,0 +1,11 @@
+{
+  "name": "gitsu",
+  "version": "1.0.0",
+  "description": "Read and update the items on your GitHub Projects v2 boards from Cursor, through Gitsu's hosted MCP server. Sign in with GitHub; nothing is installed on your computer.",
+  "author": { "name": "Coduo" },
+  "homepage": "https://gitsu.app/features/mcp-server",
+  "repository": "https://github.com/Coduo-Studio/gitsu-claude",
+  "license": "MIT",
+  "keywords": ["github", "projects", "kanban", "issues", "boards", "mcp"],
+  "logo": "icon.png"
+}
